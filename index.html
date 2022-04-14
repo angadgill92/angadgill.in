@@ -28,9 +28,242 @@
     <meta name="og:type" content="website">
 
     <!-- Tags generated on https://megatags.co -->
-    
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+        /* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+        html,
+        body,
+        div,
+        span,
+        applet,
+        object,
+        iframe,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        blockquote,
+        pre,
+        a,
+        abbr,
+        acronym,
+        address,
+        big,
+        cite,
+        code,
+        del,
+        dfn,
+        em,
+        img,
+        ins,
+        kbd,
+        q,
+        s,
+        samp,
+        small,
+        strike,
+        strong,
+        sub,
+        sup,
+        tt,
+        var,
+        b,
+        u,
+        i,
+        center,
+        dl,
+        dt,
+        dd,
+        ol,
+        ul,
+        li,
+        fieldset,
+        form,
+        label,
+        legend,
+        table,
+        caption,
+        tbody,
+        tfoot,
+        thead,
+        tr,
+        th,
+        td,
+        article,
+        aside,
+        canvas,
+        details,
+        embed,
+        figure,
+        figcaption,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        output,
+        ruby,
+        section,
+        summary,
+        time,
+        mark,
+        audio,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        /* HTML5 display-role reset for older browsers */
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block;
+        }
+
+        body {
+            line-height: 1;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+        }
+
+        blockquote,
+        q {
+            quotes: none;
+        }
+
+        blockquote:before,
+        blockquote:after,
+        q:before,
+        q:after {
+            content: '';
+            content: none;
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        /* CSS reset ends */
+
+        body {
+            background: #fff;
+            background-blend-mode: luminosity;
+            font-family: "Source Sans Pro", Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        header,
+        footer {
+            color: #222;
+            height: 10%;
+        }
+
+        header,
+        footer {
+            padding-top: 1em;
+            padding-bottom: 1em;
+        }
+
+        .content {
+            margin: auto;
+            margin-top: 10em;
+            align-items: center;
+            height: 20em;
+            border-radius: 13px;
+            width: 40ch;
+            background: radial-gradient(circle, rgba(225, 225, 225, 1) 0%, rgba(255, 255, 255, 1) 100%);
+            box-shadow: 0px 0px 80px lightslategray;
+        }
+
+        .badge {
+            margin-left: 10px;
+            margin-right: 10px;
+            display: inline-block;
+            height: 43px;
+            width: 43px;
+            text-align: center;
+            border-radius: 30%;
+            background-color: snow;
+        }
+
+        .shadow {
+            box-shadow: 0px 0px 8px lightslategray;
+            -webkit-transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .shadow::after {
+            opacity: 0;
+            -webkit-transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+            transition: all 0.1s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+
+        .shadow:hover {
+            -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+        }
+
+        .shadow:hover::after {
+            opacity: 1;
+        }
+
+        .profile {
+            align-content: center;
+        }
+
+        .photo {
+            margin-top: 2em;
+            border-radius: 50%;
+            height: 100px;
+            width: 100px;
+            border-color: ivory;
+            border-style: solid;
+            border-width: 1px;
+        }
+
+        .name {
+            margin: 10px 0px 10px 0px;
+            color: darkslategray;
+            font-weight: 500;
+            letter-spacing: 3.5px;
+        }
+
+        .svg-text {
+            font-weight: bolder;
+        }
+
+        hr {
+            margin: 20px 20px 20px 20px;
+            border-style: dashed;
+            border-color: gray;
+        }
+    </style>
 </head>
 
 <body>
